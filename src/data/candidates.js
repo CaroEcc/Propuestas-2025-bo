@@ -3,7 +3,7 @@ import andronicoViceImg from '../assets/candidates/mariana-prado.jpg';
 import andronicoLogoImg from '../assets/logo/alianza_popular.jpeg';
 
 import pavelImg from '../assets/candidates/pavel-aracena.jpg';
-import pavelViceImg from '../assets/candidates/vice-pavel.jpg';
+import pavelViceImg from '../assets/candidates/vice-pavel.png';
 import pavelLogoImg from '../assets/logo/adn.png';
 
 const candidates = [
