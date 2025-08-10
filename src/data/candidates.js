@@ -3,7 +3,7 @@ import andronicoViceImg from '../assets/candidates/mariana-prado.jpg';
 import andronicoLogoImg from '../assets/logo/alianza_popular.jpeg';
 
 import pavelImg from '../assets/candidates/pavel-aracena.jpg';
-import pavelViceImg from '../assets/candidates/mariana-prado.jpg';
+import pavelViceImg from '../assets/candidates/vice-pavel.jpg';
 import pavelLogoImg from '../assets/logo/adn.png';
 
 const candidates = [
@@ -37,10 +37,10 @@ const candidates = [
         textColor: "#000",
   
         vicepresidente: {
-          name: "Mariana Prado",
+          name: "Víctor Hugo Sergio Núñez del Prado",
           party: "Alianza Popular",
           puesto: "Vicepresidente",
-          image: andronicoViceImg
+          image: pavelViceImg
         }
       }
   ];
