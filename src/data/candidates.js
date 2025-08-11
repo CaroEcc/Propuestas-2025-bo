@@ -1,6 +1,6 @@
 import APImg from '../assets/candidates/AP.png';
 import ADNImg from '../assets/candidates/ADN.png';
-import APBSImg from '../assets/candidates/APBSImg.png';
+import APBSImg from '../assets/candidates/APBS.png';
 const candidates = [
     {
       id: 1,
