@@ -1,15 +1,20 @@
+// App.jsx
 import React, { useState } from 'react';
 import candidates from './data/candidates';
 import CandidateCard from './components/CandidateCard';
 import CandidateModal from './components/CandidateModal';
+import papeleta from './assets/papeleta.png';
+
 
 const App = () => {
   const [selectedCandidate, setSelectedCandidate] = useState(null);
   const [modalOpen, setModalOpen] = useState(false);
 
-  const openModal = (candidate) => {
+  const handleHover = (candidate) => {
     setSelectedCandidate(candidate);
-    setModalOpen(true);
+    if (!modalOpen) {
+      setModalOpen(true);
+    }
   };
 
   const closeModal = () => {
@@ -18,26 +23,18 @@ const App = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-100 p-8">
-      <h1 className="text-3xl font-bold text-center mb-8">
-        Promesas Electorales - Papeleta Electoral - Bolivia 2025
-      </h1>
+    <div className="h-screen bg-no-repeat bg-contain bg-center bg-fixed p-3 flex items-center justify-center"  
+    style={{ backgroundImage: `url(${papeleta})` }}>
 
-      <div className="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-4 gap-6">
+      <div className="grid grid-cols-9 gap-6">
         {candidates.map((candidate) => (
           <CandidateCard
             key={candidate.id}
             candidate={candidate}
-            onHover={openModal}
+            onHover={handleHover}
           />
         ))}
       </div>
-
-      <CandidateModal
-        isOpen={modalOpen}
-        onClose={closeModal}
-        candidate={selectedCandidate}
-      />
     </div>
   );
 };
