@@ -1,4 +1,4 @@
-import APImg from '../assets/candidates/API.jpg';
+import APImg from '../assets/candidates/API.png';
 import ADNImg from '../assets/candidates/ADN.png';
 import APBSImg from '../assets/candidates/APBSImg.png';
 const candidates = [
