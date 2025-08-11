@@ -23,10 +23,10 @@ const App = () => {
   };
 
   return (
-    <div className="h-screen bg-no-repeat bg-contain bg-center bg-fixed p-3 flex items-center justify-center"  
+    <div className="h-screen bg-no-repeat bg-contain bg-center bg-fixed p-5 flex items-center justify-center"  
     style={{ backgroundImage: `url(${papeleta})` }}>
 
-      <div className="grid grid-cols-9 gap-6">
+      <div className="grid grid-cols-10 gap-6">
         {candidates.map((candidate) => (
           <CandidateCard
             key={candidate.id}
