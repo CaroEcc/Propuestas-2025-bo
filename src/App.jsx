@@ -123,7 +123,7 @@ const App = () => {
                     <ul className="list-disc pl-5 space-y-2 text-gray-700">
                       {selected.promesas.map((p, i) => (
                         <li key={i} className="leading-relaxed">
-                          {p}
+                          <span dangerouslySetInnerHTML={{ __html: p }} />
                         </li>
                       ))}
                     </ul>
