@@ -39,7 +39,7 @@ const App = () => {
       </header>
 
       {/* INSTRUCCIONES */}
-      <div className="container mx-auto px-4 py-3 bg-gray-50 rounded-md shadow-sm backdrop-blur-sm">
+      <div className="container mx-auto px-4 py-3 mt-2 bg-gray-50 rounded-md shadow-sm backdrop-blur-sm">
         <h2 className="flex items-center text-xl font-semibold mb-3 text-gray-900">
           <svg
             className="w-6 h-6 mr-2 text-yellow-500 flex-shrink-0"
@@ -103,7 +103,7 @@ const App = () => {
         selected && (
           <div className="fixed inset-0 bg-black/60 backdrop-blur-sm flex items-center justify-center p-4 z-50">
             <div className="bg-white rounded-lg max-w-4xl w-full h-[60vh] overflow-hidden shadow-2xl border-t-4 border-yellow-400">
-              <div className="grid md:grid-rows-2 h-[60vh]">
+              <div className="grid grid-cols-1 md:grid-cols-2 h-[60vh]">
                 {/* Video */}
                 <div className="h-full">
                   <iframe
