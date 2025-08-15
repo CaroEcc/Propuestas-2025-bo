@@ -80,7 +80,7 @@ const candidates2 = [
         video: "https://www.youtube.com/embed/R2BtrOuhBPE",
         promesas: [
             "Análisis del plan de gobierno de Chequea tu voto. <a class='text-blue-500' href='https://drive.google.com/file/d/1oGuO5W0nqI7cGacJnO68B66t__QUb9AB/view' target='_blank'>Haz click para ver documento</a>",
-            "Ver red flags resultantes del análisis de Chequea tu voto. <a class='text-blue-500' href='https://drive.google.com/file/d/1oGuO5W0nqI7cGacJnO68B66t__QUb9AB/view' target='_blank'>Haz click para ver documento</a>",
+            "Ver red flags resultantes del análisis de Chequea tu voto. <a class='text-blue-500' href='https://drive.google.com/file/d/1-6wOoH1Yo9m_ebD-Mht76jnmmmC7Jsgk/view' target='_blank'>Haz click para ver documento</a>",
             "Encuentra a los diputados uninominales de tu circunscripción. <a class='text-blue-500' href='https://observablehq.com/@mauforonda/en-que-circunscripcion-me-encuentro' target='_blank'>Haz click para saber en que circunscripción te encuentras</a>",
             "Programa de gobierno Unidad Nacional. <a class='text-blue-500' href='https://web.oep.org.bo/wp-content/uploads/2025/05/PROGRAMA-DE-GOBIERNO-ALIANZA-UNIDAD.pdf' target='_blank'>Haz click para ver documento</a>"
         ],

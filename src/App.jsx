@@ -39,6 +39,7 @@ const App = () => {
       </header>
 
       {/* INSTRUCCIONES */}
+      
       <div className="container mx-auto px-4 py-3 mt-2 bg-gray-50 rounded-md shadow-sm backdrop-blur-sm">
         <h2 className="flex items-center text-xl font-semibold mb-3 text-gray-900">
           <svg
@@ -96,8 +97,16 @@ const App = () => {
             </div>
           ))}
         </div>
+        
       </main >
-
+      <div className="container mx-auto px-4 py-3 mt-2 bg-gray-50 rounded-md shadow-sm backdrop-blur-sm">
+        <h2 className="flex items-center text-xl font-semibold mb-3 text-gray-900">
+          Mas información?          
+        </h2>
+        <p className="mb-2 text-gray-700 leading-relaxed">
+          ingresa a: <a class='text-blue-500' target="_blank" href="https://www.chequeatuvoto.chequeabolivia.bo/analisis-comparativo">Chequea Tu Voto!</a>
+        </p>
+      </div>
       {/* MODAL */}
       {
         selected && (
