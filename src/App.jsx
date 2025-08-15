@@ -97,23 +97,71 @@ const App = () => {
             </div>
           ))}
         </div>
-        <div className="container mx-auto px-6 py-4 mt-4 bg-white rounded-lg shadow-md backdrop-blur-sm border border-gray-200">
-          <h2 className="flex items-center text-2xl font-bold mb-3 text-gray-900">
-            ¿Más información?
+        <div className="container mx-auto px-6 py-5 mt-6 bg-white rounded-xl shadow-lg border border-gray-100 backdrop-blur-sm">
+          <h2 className="flex items-center text-2xl font-bold mb-5 text-gray-900">
+            📚 Más información
           </h2>
-          <p className="text-gray-700 leading-relaxed">
-            Ingresa a: <br />
-            <a
-              className="text-blue-600 font-medium hover:text-blue-800 hover:underline transition-colors duration-200"
-              target="_blank"
-              rel="noopener noreferrer"
-              href="https://www.chequeatuvoto.chequeabolivia.bo/analisis-comparativo"
-            >
-              Chequea Tu Voto
-            </a>
-          </p>
+
+          <ul className="space-y-3">
+            <li>
+              <a
+                href="https://www.chequeatuvoto.chequeabolivia.bo/analisis-comparativo"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-400 hover:bg-blue-50 transition-all duration-200"
+              >
+                <span className="text-blue-600 text-lg">🔍</span>
+                <span className="text-gray-800 font-medium">Chequea Tu Voto</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://boliviaverifica.bo/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-400 hover:bg-blue-50 transition-all duration-200"
+              >
+                <span className="text-blue-600 text-lg">📰</span>
+                <span className="text-gray-800 font-medium">Verifica noticias con Bolivia Verifica</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://ocdbolivia.org/archivo/documentos"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-400 hover:bg-blue-50 transition-all duration-200"
+              >
+                <span className="text-blue-600 text-lg">📄</span>
+                <span className="text-gray-800 font-medium">Documentos de la ODC - Observación Ciudadana de la Democracia</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://jubileobolivia.org.bo/Publicaciones/Articulos/El-rol-y-liderazgo-del-proximo-parlamento-seran-claves-para-adoptar-medidas-anticrisis"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-400 hover:bg-blue-50 transition-all duration-200"
+              >
+                <span className="text-blue-600 text-lg">🏛</span>
+                <span className="text-gray-800 font-medium">El rol y liderazgo del próximo Parlamento serán claves para medidas anticrisis</span>
+              </a>
+            </li>
+            <li>
+              <a
+                href="https://www.cuidemoselvoto.com/"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-400 hover:bg-blue-50 transition-all duration-200"
+              >
+                <span className="text-blue-600 text-lg">🇧🇴</span>
+                <span className="text-gray-800 font-medium">Movimiento ciudadano por la defensa de la democracia boliviana.</span>
+              </a>              
+            </li>
+          </ul>
         </div>
-      </main >
+
+      </main>
 
       {/* MODAL */}
       {
