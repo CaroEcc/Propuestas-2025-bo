@@ -5,5 +5,5 @@ import tailwindcss from '@tailwindcss/vite'
 // https://vite.dev/config/
 export default defineConfig({
   plugins: [react(), tailwindcss(),],
-  base: "/papeleta-bolivia"
+  base: "https://caroecc.github.io/Propuestas-2025-bo"
 })

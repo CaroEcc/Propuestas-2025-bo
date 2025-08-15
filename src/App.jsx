@@ -39,7 +39,7 @@ const App = () => {
       </header>
 
       {/* INSTRUCCIONES */}
-      
+
       <div className="container mx-auto px-4 py-3 mt-2 bg-gray-50 rounded-md shadow-sm backdrop-blur-sm">
         <h2 className="flex items-center text-xl font-semibold mb-3 text-gray-900">
           <svg
@@ -97,16 +97,24 @@ const App = () => {
             </div>
           ))}
         </div>
-        <div className="container mx-auto px-4 py-3 mt-2 bg-gray-50 rounded-md shadow-sm backdrop-blur-sm mt-4">
-        <h2 className="flex items-center text-xl font-semibold mb-3 text-gray-900">
-          Mas información?          
-        </h2>
-        <p className="mb-2 text-gray-700 leading-relaxed">
-          ingresa a: <a class='text-blue-500' target="_blank" href="https://www.chequeatuvoto.chequeabolivia.bo/analisis-comparativo">Chequea Tu Voto!</a>
-        </p>
-      </div>
+        <div className="container mx-auto px-6 py-4 mt-4 bg-white rounded-lg shadow-md backdrop-blur-sm border border-gray-200">
+          <h2 className="flex items-center text-2xl font-bold mb-3 text-gray-900">
+            ¿Más información?
+          </h2>
+          <p className="text-gray-700 leading-relaxed">
+            Ingresa a:
+            <a
+              className="text-blue-600 font-medium hover:text-blue-800 hover:underline transition-colors duration-200"
+              target="_blank"
+              rel="noopener noreferrer"
+              href="https://www.chequeatuvoto.chequeabolivia.bo/analisis-comparativo"
+            >
+              Chequea Tu Voto
+            </a>
+          </p>
+        </div>
       </main >
-      
+
       {/* MODAL */}
       {
         selected && (
