@@ -102,14 +102,14 @@ const App = () => {
             ¿Más información?
           </h2>
           <p className="text-gray-700 leading-relaxed">
-            Ingresa a:
+            Ingresa a: 
             <a
               className="text-blue-600 font-medium hover:text-blue-800 hover:underline transition-colors duration-200"
               target="_blank"
               rel="noopener noreferrer"
               href="https://www.chequeatuvoto.chequeabolivia.bo/analisis-comparativo"
             >
-              Chequea Tu Voto
+               Chequea Tu Voto
             </a>
           </p>
         </div>
