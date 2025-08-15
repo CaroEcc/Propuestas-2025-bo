@@ -29,7 +29,7 @@ const candidates2 = [
     {
         id: 3,
         nombre: "Manfred Reyes Villa - APB - SUMATE",
-        video: "https://www.youtube.com/embed/wn1Y7p8YOeU?si=99oDA-zmJUT5UzFS",
+        video: "https://www.youtube.com/embed/F3u-vhahDZ4",
         promesas: [
             "Análisis del plan de gobierno de Chequea tu voto. <a class='text-blue-500' href='https://drive.google.com/file/d/1Nva3q5ieEi_Dv94IK43TjbHnnmTSiB9v/view' target='_blank'>Haz click para ver documento</a>",
             "Ver red flags resultantes del análisis de Chequea tu voto. <a class='text-blue-500' href='https://drive.google.com/file/d/1eXZYD94zhoCWCpc8AoXj5GvXy82ei9RO/view' target='_blank'>Haz click para ver documento</a>",
