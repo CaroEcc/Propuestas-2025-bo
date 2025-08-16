@@ -158,6 +158,17 @@ const App = () => {
                 <span className="text-gray-800 font-medium">Movimiento ciudadano por la defensa de la democracia boliviana.</span>
               </a>              
             </li>
+            <li>
+              <a
+                href="https://yoparticipo.oep.org.bo/auth/signin"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="flex items-center gap-3 p-3 rounded-lg border border-gray-200 hover:border-blue-400 hover:bg-blue-50 transition-all duration-200"
+              >
+                <span className="text-blue-600 text-lg">📍</span>
+                <span className="text-gray-800 font-medium">Movimiento ciudadano por la defensa de la democracia boliviana.</span>
+              </a>
+            </li>
           </ul>
         </div>
 
