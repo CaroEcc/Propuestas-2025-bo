@@ -33,7 +33,7 @@ const candidates2 = [
         nombre: "Manfred Reyes Villa - APB - SUMATE",
         video: "https://www.youtube.com/embed/hYPRLODplHI",
         promesas: [
-            "Debate completo: <a class='text-blue-500' href='https://www.youtube.com/watch?v=BzVfx8Hf8hg' target='_blank'>Haz click para ver</a>",
+            "Debate completo: <a class='text-blue-500' href='https://www.youtube.com/watch?v=JIH4ElQnP7k&t=3873s' target='_blank'>Haz click para ver</a>",
             "Análisis del plan de gobierno de Chequea tu voto. <a class='text-blue-500' href='https://drive.google.com/file/d/1Nva3q5ieEi_Dv94IK43TjbHnnmTSiB9v/view' target='_blank'>Haz click para ver documento</a>",
             "Ver red flags resultantes del análisis de Chequea tu voto. <a class='text-blue-500' href='https://drive.google.com/file/d/1eXZYD94zhoCWCpc8AoXj5GvXy82ei9RO/view' target='_blank'>Haz click para ver documento</a>",
             "Encuentra a los diputados uninominales de tu circunscripción. <a class='text-blue-500' href='https://observablehq.com/@mauforonda/en-que-circunscripcion-me-encuentro' target='_blank'>Haz click para saber en que circunscripción te encuentras</a>",
